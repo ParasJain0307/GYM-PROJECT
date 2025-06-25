@@ -1,0 +1,33 @@
+npm i react-spinners react-toastify react-router-dom axios
+
+
+Packages Details 
+
+1. react-router-dom
+What: A routing library for React apps.
+Why: It allows you to create multiple pages (routes) in your app like /home, /about, /contact, etc., without reloading the page.
+When: You’ll use it when setting up navigation between different components/pages.
+Example Use:
+
+Alternatives: Next.js (built-in routing), Reach Router (older)
+2. axios
+What: A promise-based HTTP client.
+Why: It helps you make API requests (GET, POST, PUT, DELETE) to your backend or external APIs.
+When: You’ll use it when fetching or sending data, like user login, fetching gym plans, etc.
+Example Use:
+
+Alternatives: fetch (native), react-query (for advanced data fetching)
+3. react-toastify
+What: A library to show toast notifications (small popup messages).
+Why: It improves user experience by showing success, error, or info messages (e.g., “Login successful”, “Error fetching data”).
+When: You’ll use it after actions like form submission, login, or API response.
+Example Use:
+
+Alternatives: notistack, sweetalert2, custom modals
+4. react-spinners
+What: A collection of loading spinner components.
+Why: It shows a loading animation while data is being fetched or processed.
+When: You’ll use it during API calls or page transitions.
+Example Use:
+
+Alternatives: react-loader-spinner, custom CSS loaders
